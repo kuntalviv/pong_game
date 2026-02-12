@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,12 +10,18 @@
 <body>
     <section id="scoresheet">
         <h1 id="score">SCORE:0 </h1>
+
         <h1 id="highscore">HIGH SCORE:0 </h1>
     </section>
-    
+    <br>
     <div id="box">
         <div id="circle"></div>
         <div id="rectangle"></div>
+        <div id="rectangle2"></div>
     </div>
+    <label id="ballspeed">Ball Speed Modifier: <input  type="number" onchange="onBallSpeedChange(event)"></input></label>
+    <button id="pausebutton" type="button" onclick="stopBall()">Pause</button>
+    <button id="onepaddlebutton" type="button" onclick="selectOnePaddle()">One Paddle</button>
+    <button id="twopaddlesbutton" type="button" onclick="selectTwoPaddle()">Two Paddles</button>
 </body>
 </html>
