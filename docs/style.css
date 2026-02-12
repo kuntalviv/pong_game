@@ -15,6 +15,15 @@
     top: 77vh;
 }
 
+#rectangle2 {
+    width: 12vw;
+    height: 2vh;
+    background-color: blue;
+    position: absolute;
+    top: 1vh;
+    display: none;
+}
+
 #box {
     height:80vh;
     width:92vw;
@@ -29,4 +38,27 @@
 #scoresheet {
     display:flex;
     justify-content: space-between;
+}
+
+#ballspeed {
+    position: absolute;
+    bottom: 1vh;
+}
+
+#pausebutton {
+    position: absolute;
+    bottom: 1vh;
+    left: 22vw;
+}
+
+#onepaddlebutton {
+    position: absolute;
+    bottom: 1vh;
+    left: 30vw;
+}
+
+#twopaddlesbutton {
+    position: absolute;
+    bottom: 1vh;
+    left: 38vw;
 }
