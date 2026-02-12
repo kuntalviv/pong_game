@@ -1,0 +1,32 @@
+#circle {
+    width: 2vw;
+    height: 2vw;
+    background-color: #4CAF50; 
+    border-radius: 50%;
+    position: absolute;
+    left: 50vw;
+}
+
+#rectangle {
+    width: 12vw;
+    height: 2vh;
+    background-color: blue;
+    position: absolute;
+    top: 77vh;
+}
+
+#box {
+    height:80vh;
+    width:92vw;
+    position: absolute;
+    left: 2vw;
+    top: 10vh;
+    border-width: 1vw;
+    border-style: solid;
+    border-color: black;
+}
+
+#scoresheet {
+    display:flex;
+    justify-content: space-between;
+}
