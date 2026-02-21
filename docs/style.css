@@ -62,3 +62,9 @@
     bottom: 1vh;
     left: 38vw;
 }
+
+#playmusicbtn {
+    position:absolute;
+    bottom:1vh;
+    left:48vw;
+}
