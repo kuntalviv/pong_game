@@ -65,7 +65,15 @@ const selectTwoPaddle = () => {
 }
 
 const playMusic = () => {
-    (new Audio("bgmusic.mp3")).play();  
+    const audio = new Audio("bgmusic.mp3");
+    const playbtn = document.getElementById("playmusicbtn");
+    if(playBtn.innerText === "Pause Music") {
+        music.play();
+        playBtn.innerText = "Play Music";
+    } else {
+        music.pause();
+        playBtn.innerText = "Pause Music";
+    }
 };
 
 const ballMovementFunction = () => {
