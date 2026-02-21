@@ -64,6 +64,10 @@ const selectTwoPaddle = () => {
     paddleTwo.style.display = "block";
 }
 
+const playMusic = () => {
+    (new Audio("bgmusic.mp3")).play();  
+};
+
 const ballMovementFunction = () => {
 
     if(ballPos[1] >= 75) {
