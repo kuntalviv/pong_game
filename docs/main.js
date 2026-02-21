@@ -64,10 +64,12 @@ const selectTwoPaddle = () => {
     paddleTwo.style.display = "block";
 }
 
+const audio = new Audio("bgmusic.mp3");
+const playBtn = document.getElementById("playmusicbtn");
+
 const playMusic = () => {
-    const audio = new Audio("bgmusic.mp3");
-    const playBtn = document.getElementById("playmusicbtn");
-    if(playBtn.innerText === "Pause Music") {
+        
+    if(playBtn.innerText !== "Play Music") {
         audio.play();
         playBtn.innerText = "Play Music";
     } else {
