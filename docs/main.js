@@ -78,6 +78,8 @@ const playMusic = () => {
     }
 };
 
+playMusic();
+
 const ballMovementFunction = () => {
 
     if(ballPos[1] >= 75) {
