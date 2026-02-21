@@ -66,7 +66,7 @@ const selectTwoPaddle = () => {
 
 const playMusic = () => {
     const audio = new Audio("bgmusic.mp3");
-    const playbtn = document.getElementById("playmusicbtn");
+    const playBtn = document.getElementById("playmusicbtn");
     if(playBtn.innerText === "Pause Music") {
         music.play();
         playBtn.innerText = "Play Music";
