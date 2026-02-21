@@ -68,12 +68,12 @@ const audio = new Audio("bgmusic.mp3");
 const playBtn = document.getElementById("playmusicbtn");
 
 const playMusic = () => {
-        
-    if(playBtn.innerText !== "Play Music") {
-        audio.play();
+    
+    if(playBtn.innerText === "Pause Music") {
+        audio.pause();
         playBtn.innerText = "Play Music";
     } else {
-        audio.pause();
+        audio.play();
         playBtn.innerText = "Pause Music";
     }
 };
