@@ -78,7 +78,6 @@ const playMusic = () => {
     }
 };
 
-playMusic();
 
 const ballMovementFunction = () => {
 
